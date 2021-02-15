@@ -1,0 +1,215 @@
+* {
+    font-family: 'Kaushan Script', cursive;
+}
+body {
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+.calosc {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+header .l{
+    display: flex;
+    margin: auto;
+    flex: 5;
+    margin: 0 10px;
+    justify-content: space-between;  
+}
+header .p {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    margin: auto 0;
+}
+header .l ul {
+    display: flex;
+    list-style: none;
+    margin-right: 35%;
+}
+header .l ul li {
+    margin-right: 20px;
+    color: rgb(245, 137, 155);
+    font-size: 30px;
+}
+#gr{
+    position: relative;
+    margin-right: 30px;
+}
+header .p button {
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 5px;
+    width: 160px;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.zdj {
+    width: 100%;
+    padding-top: 63.64%;
+    background: url('header-background.jpeg');
+    background-size: contain;
+    position: relative;
+    top: -10%;
+    z-index: -1; 
+}
+.zdj .color {
+    position: absolute;
+    background-color: rgba(219, 190, 109, 0.466);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.color .header {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.color .header h1{
+    text-align: center;
+    font-size: 44px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.color .header h1 em{
+   font-size: 56px;
+   font-weight: 800;
+   color: rgb(247, 119, 140); 
+}
+.color .header button {
+    margin: 0 auto;
+    background-color: transparent;
+    font-size: 22px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+}
+.color .header button:hover {
+    color: grey;
+    opacity: 80%;
+}
+
+.lower_content {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    width: 70%;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+.content {
+    flex: 1;
+    padding-top:5px;
+    color:gray;
+}
+.zdj2{
+    flex: 1;
+}
+.ramka{
+    margin-left: 20px;
+    width: 100%;
+    background: url('footer-right-column.jpeg');
+    background-size: contain;
+    padding-top: 75%;
+    position: relative;
+}
+.lower_content .content h1{
+    font-weight: 400;
+    color: #000;
+}
+.lower_content .content h1 b{
+    font-size: 56px;
+    color: rgb(247, 119, 140);
+}
+.lower_content button {
+    margin: 0 auto;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px #000 solid;
+}
+.lower_content button:hover {
+    color: grey;
+    opacity: 80%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+    background-color: rgb(228, 207, 207);
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(235, 232, 232);
+}
+.store{
+    display: flex;
+    justify-content: center;
+}
+.footer .store h1{
+    font-weight: 400;
+    color: #000;
+}
+.footer .store h1 b{
+    font-size: 76px;
+    color: rgb(247, 144, 144);
+}
+.footer .guziki button{
+    margin:0 55px 0 0;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px #000 solid;
+}
+.footer .guziki button:hover{
+    color: grey;
+    opacity: 80%;
+}
+.text{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+width: 100%;
+}
+.footer .text button{
+    background-color:rgb(247, 119, 140);
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px rgb(247, 119, 140) solid;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.footer .text input{
+    width:25%;
+    border: grey;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.or{
+    font-size: 60px;
+    color: black);
+}
+#us{
+    color: rgb(248, 104, 104);
+    font-size: 50px;
+}
